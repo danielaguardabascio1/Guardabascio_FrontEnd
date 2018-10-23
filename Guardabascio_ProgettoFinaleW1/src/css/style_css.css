@@ -96,13 +96,13 @@ body{
     border: 1px solid grey;
 }
 
-/*
-.like:hover {
+
+.like_green {
     background-color: #5CB85C;
     border-color: #5CB85C;
     color: #FFF;
 }
-*/
+
 .style_article {
     padding-bottom: 12px;
     max-width: 341.5px;
