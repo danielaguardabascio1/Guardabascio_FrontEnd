@@ -1,32 +1,32 @@
 var colori = Array ('#dd2493','#236e96','#5deb2e','#ff1111');
-var myVar;
 var go=true;
 var n=0;
+var myVar;
 
 function onLoad() {    
     if(go==true)
-            myVar = window.setInterval(changeBackground, 1500);
+        myVar = window.setInterval(changeBackground, 1500);
+    
 }
-
 
 function changeBackground() {
-    if(n>colori.length)
+    if(n<=colori.length){
+    n++;}
+    else
         n=0;
-    n++;
+    if(go==true)
+        document.body.style.background = colori[n];
     
-    document.body.style.background = colori[n];
 }
 
-
-
 function stop(){
-   go=false; 
+  go=false;
 }
 
 function riavvia(){
     go=true;
      myVar = window.setInterval(changeBackground, 1500);
-    console.log(go);
+   
 }
 
 

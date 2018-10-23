@@ -26,7 +26,7 @@ function invioDati() {
     var lavoratore = document.querySelector("#lavoroId").value;
     var descrizione = document.querySelector("#descLav").value;
     
-    console.log(nomCogn);
+    console.log("ciao " + nomCogn);
     
     if (nomCogn=='')
         window.alert("Non è stato compuilato il campo nome cognome");
