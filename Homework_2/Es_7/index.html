@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    <title> Esercizio 3</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <form class="Form">
+
+        Nome Cognome : <input type="text" name="firstname" value="" id="nomcogn" maxlength="50" onKeyup="validate();"><br><br>
+
+        Sesso : <br> M<input type="radio" name="sesso" value="M" id="sex" checked="checked">
+        F<input type="radio" name="sesso" value="F" id="sex" checked="checked"><br><br>
+
+        Ateneo : <select name="ateneo" value="" id="at">
+            <option value="Sapeinza" selected="selected"> Sapienza</option>
+            <option value="Torvergata" selected="selected"> Torgergata</option>
+            <option value="Roma3" selected="selected"> Roma3</option>
+        </select>
+        <br><br>
+
+        Cap : <input type="text" name="cap" value="" id="capId" onKeyDown="limitText(this,5);" onKeyUp="limitText(this,5);">
+            <br><br>
+        
+        Studente Lavoratore : <input type="checkbox" name="lavoroId" value="">
+        <br><br>
+
+        Descrizione Lavoro : <input type="text" name="descrizione" value="" id="descLav" maxlength="80">
+        <br><br>
+
+        <input type="submit" value="Invia Dati" onclick="invioDati()" />
+        <input type="reset" value="Reset ">
+        <br><br>
+
+    </form>
+
+
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>
