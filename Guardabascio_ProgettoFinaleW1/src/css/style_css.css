@@ -5,9 +5,28 @@
     align-items: center;
     padding-left: 4%;
 }
+.cookie {
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+
+/* Position Absolute su unod ei due loghi interni all Hero*/
+/*
+.style_1 .img_hero  {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    
+}
+*/
 
 main {
     margin: 0px;
+}
+body{
+    margin: 0;
 }
 
 .p_header {
@@ -28,6 +47,7 @@ main {
     padding-top: 30px;
     padding-bottom: 50px;
     background-color: #e4edf6;
+    position: relative;
 }
 
 .style_1 a img {
@@ -76,12 +96,13 @@ main {
     border: 1px solid grey;
 }
 
+/*
 .like:hover {
     background-color: #5CB85C;
     border-color: #5CB85C;
     color: #FFF;
 }
-
+*/
 .style_article {
     padding-bottom: 12px;
     max-width: 341.5px;
@@ -99,4 +120,5 @@ a {
 .separetor {
     border: 0.5px solid grey;
 }
+
 
