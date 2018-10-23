@@ -10,7 +10,10 @@ function onLoad() {
 
 
 function changeBackground() {
+    if(n>colori.length)
+        n=0;
     n++;
+    
     document.body.style.background = colori[n];
 }
 
