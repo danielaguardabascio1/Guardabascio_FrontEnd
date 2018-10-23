@@ -1,6 +1,7 @@
 // Funzione per nascondere i coockie
 CookieId.addEventListener('click', function () {
     document.getElementById('cookie').style.display = "none";
+    document.getElementById('cookie').classList.add
 });
 
 
