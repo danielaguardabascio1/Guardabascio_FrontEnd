@@ -1,38 +1,18 @@
-body {
-    margin: 0px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
+/* Prima versione del foglio di stile, senza ausilio di Bootstrap */
+/*
 .header {
     background-color: #223A48;
     height: 50px;
+    display: flex;
+    align-items: center;
     padding-left: 4%;
-    margin-bottom:-10px;
-    width: 100%;
-    }
-
-/* per fissare i cookie ho usato navbar di bootstrap
+}
 .cookie {
     width: 100%;
     position: fixed;
     bottom: 0%;
 }
-*/
 
-.p_header {
-    color: white;
-    font-size: 18px;
-    padding: 15px;
-    float: left;
-}
-
-.p_hero {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-color: #e4edf6;
-    color: #223a48;
-    font-size: 18px;
-}
 
 /* Position Absolute su unod ei due loghi interni all Hero*/
 /*
@@ -40,62 +20,42 @@ body {
     position: absolute;
     top: 50%;
     left: 45%;
+    
 }
 */
+/*
+main {
+    margin: 0px;
+}
+body{
+    margin: 0;
+}
+
+.p_header {
+    color: white;
+    font-size: 20px;
+}
+
+.p_hero {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #e4edf6;
+    color: #223a48;
+}
 
 .style_1 {
     padding-left: 4%;
     padding-right: 4%;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     background-color: #e4edf6;
     position: relative;
-    font-size: 18px;
-    
 }
 
-.style_1 h1 {
-    font-size: 64px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: 500;
-}
-
-/* per la creazione e gestione dei link HEro abbiamo usato bootstrap
 .style_1 a img {
     border-radius: 5px;
 }
-*/
 
-/*
-sili per allineare i bottoni dell'hero
-*/
-.buttonHero {
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
-}
-
-.buttonHero a { 
-    width: auto;
-    height: 46px;
-    border-radius: 5px;
-}
-
-.buttonHero svg {
-    margin-right: 10px;
-    height: 46px;
-    width: auto;
-    border-radius: 5px;
-    background-color: #3484be;
-}
-
-/*
-In questa sezione viene gestito il content
-*/
-
-
-/* Usiamo container per gestire stype 2
 .style_2 {
     margin: 0 auto;
     padding-left: 4%;
@@ -107,27 +67,13 @@ In questa sezione viene gestito il content
     flex-wrap: wrap;
     justify-content: space-between;
 }
-*/
-
-.container {
-    padding-left: 4%;
-    padding-right: 4%;
-    align-items: center;
-    padding-right: 10px;
-    width: 100%;
-    float: left;
-
-}
 
 .title_article {
     margin: 0;
-    padding-top: 45px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     font-size: 20px;
 }
 
-/* Bootstap si occupa del colore e del formato del formato del textbox e cambio del colore al passaggio del mouse*/
-/*
 .tech {
     padding: 5px;
     background-color: #3484be;
@@ -140,13 +86,9 @@ In questa sezione viene gestito il content
     border-radius: 5px;
     color: #3484be;
 }
-*/
 
 .style_2 img {
     margin-bottom: 13px;
-    width: 300px;
-    height: auto;
-    
 
 }
 
@@ -163,6 +105,10 @@ In questa sezione viene gestito il content
     color: #FFF;
 }
 
+.style_article {
+    padding-bottom: 12px;
+    max-width: 341.5px;
+}
 
 a {
     text-decoration: none;
@@ -177,4 +123,92 @@ a {
     border: 0.5px solid grey;
 }
 
+
+
+*/
+
+/* Nuovo foglio di stile */
+
+/*Imposto il font per l'intera pagina*/
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.header {
+    background-color: #223A48;
+    height: 50px;
+    
+    }
+
+.p_header {
+    color: white;
+    font-size: 18px;
+    padding-top: 1%;
+}
+
+.container.hero {
+    margin-top: 50px;
+    font-size: 18px; 
+    padding-bottom: 50px;
+    
+}
+
+.colorHero{
+    background-color: #e4edf6;  
+}
+
+.buttonHero {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.buttonHero svg {
+    margin-right: 10px;
+    height: 46px;
+    width: auto;
+    border-radius: 5px;
+    background-color: #3484be;
+}
+
+.buttonHero a { 
+    width: auto;
+    height: 46px;
+    border-radius: 5px;
+}
+
+
+.main .hero p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #e4edf6;
+    color: #223a48;
+    font-size: 18px;
+}
+
+.main .hero h1 {
+    font-size: 64px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+/*
+In questa sezione viene gestito il content
+*/
+
+.title_article {
+    padding-top: 45px;
+    font-size: 20px;
+}
+
+.style_2 img {
+    margin-bottom: 13px;
+    
+    height: auto;
+    
+
+}
 
