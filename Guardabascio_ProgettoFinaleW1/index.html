@@ -9,65 +9,73 @@
     <meta name="keywords" content="HTML,CSS,XML,JavaScript, Latino , Poesia, lipso">
     <meta name="author" content="Guardabascio Daniela">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/style_css.css" type="text/css">
 
 </head>
 
-<body class="Body">
-    <div class="header cookie" id="cookie">
+<body class="body">
+    <div class="header cookie navbar navbar-inverse navbar-fixed-bottom" id="cookie">
         <p class="p_header">This is a cookie policy click <span id="CookieId">here</span> for close it</p>
     </div>
 
-    <header class="header">
+    <header class="header navbar navbar-inverse navbar-fixed-top">
         <a href="#" target="_balnk">
             <p class="p_header"> Project Guardanascio Daniela</p>
         </a>
     </header>
 
 
-    <main>
-        <div class="style_1">
-            <h1>Hello, World!</h1>
-            <p class="p_hero">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-            <a href="https://google.it/" target="_balnk"><img src="src/image/GitHub.PNG" width="auto" height="45"></a>
-            <a href="https://google.it/" target="_balnk"><img class="img_hero" src="src/image/Slides.PNG" width="auto" height="45"></a>
+    <div class="style_1">
+        <h1>Hello, World!</h1>
+        <p class="p_hero">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
+        <div class="buttonHero">
+            <a href="https://google.it/" target="_balnk"> <svg class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
+
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" fill="#ffffff"></path>
+                </svg></a>
+
+
+            <a href="https://google.it/" target="_balnk" class="btn btn-primary btn-lg" role="button">Slides »</a>
         </div>
+    </div>
 
-        <section class="style_2">
-            <article class="style_article">
+    <section class="container">
+        <div class="row" >
+            <article class="style_article col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <h1 class="title_article">Article Title 1</h1>
-                <img src="src/image/title1.PNG" width="100%" height="auto">
-                <a class="tech"> tech</a>
+                <img src="src/image/title1.PNG" width="100%" height="auto" class="img-fluid" alt="Responsive image">
+                <span class="tech btn btn-primary btn-lg" role="button"> tech</span>
                 <p> Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur.</p>
-                <span class="like" id="Like1" > like </span>
+                <span class="tech btn btn-primary btn-lg" role="button"> tech</span>
             </article>
-            <article class="style_article">
+            <article class="style_article col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <h1 class="title_article">Article Title 2</h1>
-                <img src="src/image/title2.PNG" width="100%" height="auto">
-                <a class="tech"> tech</a>
+                <img src="src/image/title2.PNG" width="100%" height="auto" class="img-fluid" alt="Responsive image">
+                <span class="tech" class="btn btn-primary btn-lg" role="button"> tech</span>
                 <p> Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur.</p>
-                <span class="like" id="Like2"> like </span>
+               <span class="tech btn btn-primary btn-lg" role="button"> tech</span>
             </article>
-            <article class="style_article">
+            <article class="style_article col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <h1 class="title_article">Article Title 3</h1>
-                <img src="src/image/title3.PNG" width="100%" height="auto">
-                <a class="tech"> tech</a>
+                <img src="src/image/title3.PNG" width="100%" height="auto" class="img-fluid" alt="Responsive image">
+                <span class="tech" class="btn btn-primary btn-lg" role="button"> tech</span>
                 <p> Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur.</p>
-                <span class="like" id="Like3"> like </span>
+               <span class="tech btn btn-primary btn-lg" role="button"> tech</span>
             </article>
-            <article class="style_article">
-                <h1 class="src/image/title_article">Article Title 4</h1>
-                <img src="src/image/title4.PNG" width="100%" height="auto">
-                <a class="tech"> tech</a>
+            <article class="style_article col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <h1 class="title_article">Article Title 4</h1>
+                <img src="src/image/title4.PNG" width="100%" height="auto" class="img-fluid" alt="Responsive image">
+                <span class="tech" class="btn btn-primary btn-lg" role="button"> tech</span>
                 <p> Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur.</p>
-                <span class="like" id="Like4"> like </span>
+               <span class="tech btn btn-primary btn-lg" role="button"> tech</span>
             </article>
+        </div>
+    </section>
 
-        </section>
 
-    </main>
 
     <footer>
         <div class="footer">
@@ -76,8 +84,12 @@
 
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="src/js/javascript.js"></script>
-</body>
+
+    
+    
+    </body>
 
 </html>

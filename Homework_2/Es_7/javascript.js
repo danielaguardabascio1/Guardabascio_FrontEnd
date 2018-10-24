@@ -6,7 +6,7 @@ function limitText(limitField, limitNum) {
 
 }
 
-capId.limitText();
+capId.limitText;
 
 function validate() {
 
@@ -19,12 +19,12 @@ function validate() {
 
 
 function invioDati() {
-    var nomCogn = document.querySelector("#nomcogn").value;
-    var sex = document.querySelector("#sex").value;
-    var ateneo = document.querySelector("#at").value;
-    var capid = document.querySelector("#capId").value;
-    var lavoratore = document.querySelector("#lavoroId").value;
-    var descrizione = document.querySelector("#descLav").value;
+    let nomCogn = document.querySelector("#nomcogn").value;
+    let sex = document.querySelector("#sex").value;
+    let ateneo = document.querySelector("#at").value;
+    let capid = document.querySelector("#capId").value;
+    let lavoratore = document.querySelector("#lavoroId").value;
+    let descrizione = document.querySelector("#descLav").value;
     
     console.log("ciao " + nomCogn);
     
