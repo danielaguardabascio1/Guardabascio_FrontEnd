@@ -92,19 +92,6 @@ body{
 
 }
 
-.like {
-    padding: 7px;
-    border-radius: 7px;
-    border: 1px solid grey;
-}
-
-
-.like_green {
-    background-color: #5CB85C;
-    border-color: #5CB85C;
-    color: #FFF;
-}
-
 .style_article {
     padding-bottom: 12px;
     max-width: 341.5px;
@@ -113,17 +100,6 @@ body{
 a {
     text-decoration: none;
 }
-
-.footer {
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-.separetor {
-    border: 0.5px solid grey;
-}
-
-
 
 */
 
@@ -194,7 +170,6 @@ body {
     font-weight: 500;
 }
 
-
 /*
 In questa sezione viene gestito il content
 */
@@ -206,9 +181,42 @@ In questa sezione viene gestito il content
 
 .style_2 img {
     margin-bottom: 13px;
-    
     height: auto;
-    
-
 }
 
+
+.like {
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid grey;
+}
+
+
+.like_green {
+    background-color: #5CB85C;
+    border-color: #5CB85C;
+    color: #FFF;
+}
+
+footer .container {
+margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+.separetor {
+    border: 0.5px solid grey;
+}
+
+.style_article {
+    min-height: 680px;
+}
+
+
+.tech {
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color:  #3484be;
+    color: #fff;
+    }
