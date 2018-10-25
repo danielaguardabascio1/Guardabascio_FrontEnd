@@ -10,11 +10,16 @@
     <meta name="author" content="Guardabascio Daniela">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+   <!--Questa parte non la usiamo perche importiamo tutto tramite bootstrap-->
     <!--Importazione framework Bootstrap mediante CDN-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
     <!-- Importazione foglio di stile style.css-->
-    <link rel="stylesheet" href="src/css/style_css.css" type="text/css">
+    <!--Non lo usiamo piu, importiamo tutti da un unico file creato con node  e grunt
+    <link rel="stylesheet" href="src/css/style_css.css" type="text/css">-->
 
+    <!-- Tramite un unico link richiamo il foglio di stile e il css di bootstrap-->
+    <link rel="stylesheet" href="dist/css/cssMin.css">
+    
 </head>
 
 <body>
@@ -123,8 +128,12 @@
         </div>
     </footer>
 
+    <!--Questa parte non la usiamo perche importiamo tutto tramite bootstrap-->
+    <!--Importazione framework Bootstrap mediante CDN-->
+    
     <!--Importazione dei framework Bootstrap e jQuery mediante CDN
             -->
+    <!--
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
