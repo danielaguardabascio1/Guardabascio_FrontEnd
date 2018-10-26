@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="src/css/style_css.css" type="text/css">-->
 
     <!-- Tramite un unico link richiamo il foglio di stile e il css di bootstrap-->
-    <link rel="stylesheet" href="dist/css/cssMin.css">
+    <link rel="stylesheet" href="dist/css/css.min.css">
     
 </head>
 
@@ -118,6 +118,10 @@
             </div>
 
         </section>
+        
+        <section class="container" id="Remote">
+            
+        </section>
 
     </main>
 
@@ -139,24 +143,15 @@
 
 
     <!--Commento l'importazione del file javascript.js in quanto iniettori nel codice html le funzioni javascript richieste per progetto-->
-
-    <!--    <script type="text/javascript" src="src/js/javascript.js">
-    </script>-->
-    <script>
-        $(document).ready(
-            () => {
-                $('#CookieId').on('click', () => {
-                    $('#cookie').hide();
-                });
-
-                $('.like').on('click', event => {
-                    $(event.currentTarget).toggleClass('like_green')
-                });
-
-            });
-
+ <!-- 
+       <script type="text/javascript" src="src/js/javascript.js">
     </script>
-
+   -->
+    
+    <script type="text/javascript" src="dist/js/script.min.js"></script> 
+    
+    
+    
 </body>
 
 </html>

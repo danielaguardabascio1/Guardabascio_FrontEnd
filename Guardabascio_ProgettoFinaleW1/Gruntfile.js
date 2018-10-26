@@ -1,11 +1,21 @@
 module.exports = function (grunt) {
     // Project configuration.
+
     grunt.initConfig({
         serve: {
             options: {
                 port: 9000
             }
         },
+
+        less: {
+            target: {
+                files: {
+                    'src/css/style_css.css': 'src/css/style_css.less'
+                }
+            }
+        },
+
 
         browserify: {
             dist: {
@@ -16,16 +26,21 @@ module.exports = function (grunt) {
         },
 
         watch: {
-            grant: {
-                files: ['**/*.js'],
+            script: {
+                files: ['src/js/javascript.js'],
                 tasks: ['browserify']
+            },
+            cssless:{
+                files: [ 'src/css/style_css.less'],
+                tasks: ['less']
             }
+
         },
 
         cssmin: {
             target: {
                 files: {
-                    'dist/css/cssMin.css': ['node_modules/bootstrap/dist/css/bootstrap.min.css', 'src/css/style_css.css']
+                    'dist/css/css.min.css': ['node_modules/bootstrap/dist/css/bootstrap.css', 'src/css/style_css.css']
                 }
             }
         },
@@ -41,11 +56,10 @@ module.exports = function (grunt) {
             }
         },
 
-
         uglify: {
             target: {
                 files: {
-                    'dist/js/scriptMin.js': ['src/js/bubel-ema5.js', 'node_modules/bootstrap/dist/js/bootstrap.min.js']
+                    'dist/js/script.min.js': 'src/js/bubel-ema5.js'
                 }
             }
         },
@@ -53,6 +67,7 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks('grunt-serve');
+    grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -60,11 +75,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
     //quando siamo in sviluppo
-    
+
     //grunt.task.registerTask('develop', ['less','browserify', 'watch']);
-    grunt.task.registerTask('develop', ['browserify', 'watch']);
+    grunt.task.registerTask('develop', ['watch']);
 
     //quando costruiiamo il sito
-    grunt.task.registerTask('build', ['cssmin', 'browserify', 'babel', 'uglify','serve']);
+    grunt.task.registerTask('build', ['cssmin', 'babel', 'uglify', 'serve']);
 
 };
