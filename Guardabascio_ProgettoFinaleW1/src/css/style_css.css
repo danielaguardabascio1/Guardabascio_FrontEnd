@@ -3,24 +3,28 @@
   font-size: 18px;
   background-color: #223A48;
   color: #e4edf6;
-  border: 0;
-  margin: 0;
-  padding-top: 15px;
+  border: 0px;
+  margin: 0px;
   height: 50px;
 }
 .page-header p {
   margin-top: 10px !important;
-}
-.jumbotron {
-  background-color: #e4edf6;
-  padding: 40px 0px 30px 0px !important;
 }
 .colorHero {
   background-color: #e4edf6;
   margin-top: 50px;
   color: #223A48;
 }
-.buttonHero svg {
+.colorHero .jumbotron {
+  background-color: #e4edf6;
+  padding: 40px 0px 30px 0px !important;
+}
+.colorHero .buttonHero {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+.colorHero .buttonHero svg {
   margin-right: 10px;
   height: 46px;
   width: auto;
@@ -28,36 +32,36 @@
   padding: 15px;
   background-color: #3484be;
 }
-.buttonHero {
-  display: flex;
-  align-items: center;
-  padding-right: 10px;
-}
-.buttonHero a {
+.colorHero .buttonHero a {
   width: auto;
   height: 46px;
   border-radius: 5px;
 }
-/*
-In questa sezione viene gestito il content
-*/
-.title_article {
+.row .title_article {
   padding-top: 45px;
 }
-.like:hover {
+.row .tech {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background-color: #3484be;
+  color: #ffffff;
+}
+.row img {
+  min-height: 260px;
+}
+.row .like {
+  padding: 7px;
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #808080;
+}
+.row .like:hover {
   color: #333333;
   background-color: #ffffff !important;
   border-color: #333333;
   border: 1px solid #808080;
 }
-.like {
-  padding: 7px;
-  border-radius: 7px;
-  background-color: #ffffff;
-  color: #333333;
-  border: 1px solid #808080;
-}
-.like_green {
+.row .like.like_green {
   background-color: #5CB85C;
   border-color: #5CB85C;
   color: #ffffff;
@@ -66,13 +70,7 @@ footer .container {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.separetor {
-  border: 0.5px solid grey;
+footer .separetor {
+  border: 0.5px solid #808080;
   margin-bottom: 20px;
-}
-.tech {
-  margin-top: 15px;
-  margin-bottom: 5px;
-  background-color: #3484be;
-  color: #ffffff;
 }
