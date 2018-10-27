@@ -1,3 +1,33 @@
-[{"text":"ciao a tutti"},
-{"text":"Pippo"},
-{"text":"pluto"}]
+{ "articolo" : [
+    
+ {
+        "title": "Article Title 1",
+        "image": "src/image/title1.PNG",
+        "tech": "tech",
+        "text": " Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur",
+        "like": "like"
+    },
+    {
+        "title": "Article Title 2",
+        "image": "src/image/title2.PNG",
+        "tech": "tech",
+        "text": " Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur",
+        "like": "like"
+    },
+
+    {
+        "title": "Article Title 3",
+        "image": "src/image/title3.PNG",
+        "tech": "tech",
+        "text": " Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur",
+        "like": "like"
+    },
+
+    {
+        "title": "Article Title 4",
+        "image": "src/image/title4.PNG",
+        "tech": "tech",
+        "text": " Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur",
+        "like": "like"
+    }
+]}

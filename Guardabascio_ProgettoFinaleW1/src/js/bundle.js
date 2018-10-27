@@ -10378,22 +10378,25 @@ $(document).ready(
         });
 
 
-
+/*
         $.ajax({
             url: 'ajax_file.json',
             method: 'GET',
             success: function (result) {
                 var output='';
-                for (var i = 0; i < result.length; i++) {
-                    output += "<p>" + result[i].text + "</p>";
+                console.log('ciaoo');
+                //for (var i = 0; i < result.articolo.length; i++) {
+                $.each(result.articolo , function(key , value)){
+                console.log('ciaooo for'); 
+                    // output += "<p>" + result[i].articlo + "</p>";
                 }
-                $('#Remote').html(output);
+                //$('#Remote').html(output);
             },
             error: function (result) {
                 alert('Errore caricamento');
             }
 
         });
+        */
     });
-
 },{"jquery":1}]},{},[2]);
