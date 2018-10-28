@@ -27,11 +27,11 @@ module.exports = function (grunt) {
 
         watch: {
             script: {
-                files: ['src/js/javascript.js'],
+                files: ['src/js/**.js'],
                 tasks: ['browserify']
             },
             cssless:{
-                files: [ 'src/css/style_css.less'],
+                files: [ 'src/css/**.less'],
                 tasks: ['less']
             }
 
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
         uglify: {
             target: {
                 files: {
-                    'dist/js/script.min.js': 'src/js/bubel-ema5.js'
+                    'dist/js/script.min.js': ['src/js/bubel-ema5.js','node_modules/jquery/dist/jquery.js', 'node_modules/bootstrap/dist/js/bootstrap.js']
                 }
             }
         },

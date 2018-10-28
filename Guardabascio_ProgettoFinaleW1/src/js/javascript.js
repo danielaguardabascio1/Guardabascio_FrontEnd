@@ -17,7 +17,7 @@ $(document).ajaxComplete(function() {
 $(document).ready(
     () => {
         $.ajax({
-            url: 'articles.json',
+            url: '/articles.json',
             method: 'GET',
             success: function (result) {
                 var output = '';

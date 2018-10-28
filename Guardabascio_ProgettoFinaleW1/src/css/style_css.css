@@ -10,6 +10,17 @@
 .page-header p {
   margin-top: 10px !important;
 }
+.page-header span.page1 {
+  display: flex;
+  justify-content: space-between;
+}
+.page-header a {
+  text-decoration: none;
+  color: #e4edf6;
+}
+#cookie {
+  opacity: 0.9;
+}
 .colorHero {
   background-color: #e4edf6;
   margin-top: 50px;
@@ -73,4 +84,22 @@ footer .container {
 footer .separetor {
   border: 0.5px solid #808080;
   margin-bottom: 20px;
+}
+#myCarousel {
+  margin-top: 80px;
+}
+#myCarousel .carousel-inner > .item > img {
+  width: auto;
+  height: 500px;
+}
+#myCarousel .carousel-inner > .item > .carousel-caption {
+  color: #223A48;
+  font-weight: bold;
+}
+#myCarousel .carousel-inner > .item > .carousel-caption p {
+  font-size: 30px;
+}
+#myCarousel .carousel-control {
+  background-image: none;
+  font-size: 30px;
 }
