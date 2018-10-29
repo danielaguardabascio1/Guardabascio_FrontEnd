@@ -67,6 +67,17 @@
             <div class="row" id="articoli">
                 <!-- In questa sezione nerranno inseriti tramite il rendering gli articoli-->
                 
+                <script id="template" type="x-tmpl-mustache">
+                {{#articoli}}
+                <article class='style_article col-xs-12 col-sm-6 col-md-4 col-lg-4'>
+                    <h1 class='title_article'>{{title}}</h1>
+                    <img src='{{image}}' width='100%' height='auto' class='img-fluid' alt='Responsive image'> 
+                    <span class='tech btn btn-xs' role='button'>{{tech}}</span>
+                    <p> {{text}}</p>
+                    <a type='button' class='like btn btn-primary' role='button'>{{like}}</a>
+                    </article>
+                {{/articoli}}
+                </script>
 
             </div>
 
