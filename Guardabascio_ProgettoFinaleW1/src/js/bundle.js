@@ -11067,7 +11067,7 @@ $(document).ajaxComplete(function () {
 $(document).ready(
     () => {
         $.ajax({
-            url: '../articles.json',
+            url: '/articles',
             method: 'GET',
             dataType: 'json',
             success: function (result) {
@@ -11081,5 +11081,4 @@ $(document).ready(
         });
 
     });
-
 },{"jquery":1,"mustache":2}]},{},[3]);
