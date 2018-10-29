@@ -2,14 +2,14 @@
     
  {
         "title": "Article Title 1",
-        "image": "/src/image/title1.PNG",
+        "image": "https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif",
         "tech": "tech",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra at elit nec pretium. In pellentesque elementum porta. In sollicitudin orci vitae nisl fringilla vulputate. Ut rutrum elit sed risus eleifend efficitur. Integer leo nisi, finibus sed mi nec, varius blandit dolor. Suspendisse varius nisl ac viverra vestibulum. Donec mattis aliquam nibh, et viverra ipsum ultricies vitae.",
         "like": "like"
     },
     {
         "title": "Article Title 2",
-        "image": "/src/image/title2.PNG",
+        "image": "https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif",
         "tech": "tech",
         "text": " Fusce nec lacus neque. Nunc sed eros in sem sodales aliquam ut id risus. Morbi sit amet lacus nisi. Morbi bibendum est nulla, imperdiet molestie nunc porttitor in. Cras pulvinar ullamcorper ante, in porttitor mi scelerisque non. Aliquam erat volutpat.Pellentesque dui felis, varius sed auctor at, gravida sit amet dolor. Donec commodo congue ligula nec pretium. Ut sed eros ultricies, semper leo.",
         "like": "like"
@@ -17,7 +17,7 @@
 
     {
         "title": "Article Title 3",
-        "image": "/src/image/title3.PNG",
+        "image": "https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif",
         "tech": "tech",
         "text": "Pellentesque a mi rutrum, viverra lacus non, maximus mauris. Praesent at lorem vitae arcu viverra laoreet. Mauris nec eleifend elit. Ut euismod euismod nunc in auctor. Nam purus est, pharetra at blandit sit amet, volutpat ut neque. Sed volutpat justo a neque maximus, vitae tempor lacus congue. Vivamus hendrerit felis at purus imperdiet pretium. Proin ut lorem ornare odio molestie ornare a ac felis.",
         "like": "like"
@@ -25,7 +25,7 @@
 
     {
         "title": "Article Title 4",
-        "image": "s/rc/image/title4.PNG",
+        "image": "https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif",
         "tech": "tech",
         "text": " Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur",
         "like": "like"

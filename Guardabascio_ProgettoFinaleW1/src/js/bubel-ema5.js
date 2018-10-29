@@ -10604,7 +10604,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 		$(document).ready(function () {
 			$.ajax({
-				url: '../articles.json',
+				url: '/articles',
 				method: 'GET',
 				dataType: 'json',
 				success: function success(result) {
