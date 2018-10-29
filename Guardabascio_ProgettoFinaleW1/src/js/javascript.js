@@ -13,22 +13,20 @@ $(document).ajaxComplete(function () {
 
 });
 
-
 $(document).ready(
-() => {
-    $.ajax({
-                url: '/articles.json',
-                method: 'GET',
-                success: function (result) {
-                    var template = $('#template').html();
-                    var rendered = Mustache.render(template, result);
-                    $('#articoli').html(rendered);
-                });
-        },
-        error: function (result) {
-            alert('Errore caricamento');
-        }
+    () => {
+        $.ajax({
+            url: '../articles.json',
+            method: 'GET',
+            dataType: 'json',
+            success: function (result) {
+                var template = $('#template').html();
+                var rendered = Mustache.render(template, result);
+                $('#articoli').html(rendered);
+            },
+            error: function (result) {
+                alert('Errore caricamento');
+            }
+        });
 
-});
-
-});
+    });

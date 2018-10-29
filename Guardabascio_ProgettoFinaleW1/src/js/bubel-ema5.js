@@ -10604,23 +10604,17 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 		$(document).ready(function () {
 			$.ajax({
-				url: '/articles.json',
+				url: '../articles.json',
 				method: 'GET',
+				dataType: 'json',
 				success: function success(result) {
-					var output = '';
-					$.each(result.articles, function (key, value) {
-						var template = "<article class='style_article col-xs-12 col-sm-6 col-md-4 col-lg-4'><h1 class='title_article'>{{title}}</h1> <img src='{{image}}' width='100%' height='auto' class='img-fluid' alt='Responsive image'> <span class='tech btn btn-xs' role='button'>{{tech}}</span><p> {{text}}</p><script type='button' class='like btn btn-primary' role='button'>{{like}}</script></article>";
-
-						var html = Mustache.to_html(template, result.articles[key]);
-						output += html;
-					});
-
-					$('#articoli').html(output);
+					var template = $('#template').html();
+					var rendered = Mustache.render(template, result);
+					$('#articoli').html(rendered);
 				},
 				error: function error(result) {
 					alert('Errore caricamento');
 				}
-
 			});
 		});
 	}, { "jquery": 1, "mustache": 2 }] }, {}, [3]);
