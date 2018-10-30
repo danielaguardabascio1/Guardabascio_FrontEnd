@@ -10,17 +10,22 @@ var adapter = new FileSync('./articles.json');
 var db = low(adapter);
 
 
+
+
 app.use(express.static('dist'));
 
 app.use(express.json());
 
 app.use(bodyParser.json());
 
+function loadJson(app) {
+    app.get('/articles', function (req, res) {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(db);
+    });
+}
 
-app.get('/articles', function (req, res) {
-    res.setHeader('Content-Type', 'application/json');
-    res.send(db);
-});
+loadJson(app);
 
 // Add a article
 app.post('/articolo', function (req, res) {
@@ -29,13 +34,14 @@ app.post('/articolo', function (req, res) {
 })
 
 app.post('/likebutton', function (req, res) {
-    
+
     var valB = req.body.valueCl;
     var idB = req.body.idClass;
     db.get('articles')
-        .find({id: idB})
-        .assign({like : valB})
-        .write()
+        .find({  id: idB})
+        .assign({ like: valB })
+        .write();
+    loadJson();
 });
 
 
