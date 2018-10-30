@@ -11072,6 +11072,7 @@ function toggleLike (valueCl ,idClass ){
 }
 
 
+
 $(document).ajaxComplete(function () {
 
     $('.like').on('click', event => {
@@ -11117,4 +11118,5 @@ $(document).ready(
         });
 
     });
+
 },{"jquery":1,"mustache":2}]},{},[3]);

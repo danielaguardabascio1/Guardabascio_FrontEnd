@@ -33,6 +33,7 @@ app.post('/articolo', function (req, res) {
         .write()
 })
 
+
 app.post('/likebutton', function (req, res) {
 
     var valB = req.body.valueCl;
@@ -41,7 +42,9 @@ app.post('/likebutton', function (req, res) {
         .find({  id: idB})
         .assign({ like: valB })
         .write();
+
     loadJson(app);
+
 });
 
 
@@ -52,4 +55,6 @@ app.listen(3000, function () {
 
 /*
 { id: "5" , title: 'Article Title 5', image: 'https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif' , tech : 'tech' , text : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra at elit nec pretium. In pellentesque elementum porta. In sollicitudin orci vitae nisl fringilla vulputate. Ut rutrum elit sed risus eleifend efficitur. Integer leo nisi, finibus sed mi nec, varius blandit dolor. Suspendisse varius nisl ac viverra vestibulum. Donec mattis aliquam nibh, et viverra ipsum ultricies vitae' , like: 'true'}
+<<<<<<< HEAD
 */
+

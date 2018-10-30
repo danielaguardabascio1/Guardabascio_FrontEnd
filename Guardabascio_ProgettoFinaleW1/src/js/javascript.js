@@ -21,6 +21,7 @@ function toggleLike (valueCl ,idClass ){
 }
 
 
+
 $(document).ajaxComplete(function () {
 
     $('.like').on('click', event => {
