@@ -10592,9 +10592,35 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 		var $ = require('jquery');
 		var Mustache = require('mustache');
 
+		function toggleLike(valueCl, idClass) {
+			$.ajax({
+				url: '/likebutton',
+				method: 'POST',
+				contentType: 'application/json',
+				dataType: 'json',
+				data: JSON.stringify({ valueCl: valueCl, idClass: idClass }),
+				success: function success(result) {},
+				error: function error(result) {
+					alert('Errore caricamento');
+				}
+			});
+		}
+
 		$(document).ajaxComplete(function () {
+
 			$('.like').on('click', function (event) {
+				var valueCl;
 				$(event.currentTarget).toggleClass('like_green');
+				//var value = $(event.currentTarget).attr("value");
+				var idClass = event.currentTarget.parentNode.id;
+				var className = event.currentTarget.className;
+
+				if (className.indexOf("like_green") >= 0) {
+					valueCl = "false";
+				} else {
+					valueCl = "true";
+				}
+				toggleLike(valueCl, idClass);
 			});
 
 			$('#CookieId').on('click', function () {
