@@ -1,0 +1,56 @@
+.slide {
+    margin-top: 50px;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.carousel-caption {
+    box-shadow: 10px;
+}
+
+.style_article {
+    float: left;
+}
+
+#cookie {
+    opacity: 0.8;
+}
+
+#jumboHome img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.jumbotron .badge {
+    margin-top: 20px;
+}
+
+.jumbotron p {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.jumbotron h2 {
+    text-align: -webkit-center;
+}
+
+.jumbotron {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #777777;
+    border: #777777;
+}
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .style_article:last-child {
+        clear: both;
+    }
+
+}

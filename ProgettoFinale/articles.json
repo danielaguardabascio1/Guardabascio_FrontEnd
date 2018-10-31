@@ -2,43 +2,28 @@
   "articles": [
     {
       "id": "1",
-      "title": "Article Title 1",
-      "image": "https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif",
-      "tech": "tech",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra at elit nec pretium. In pellentesque elementum porta. In sollicitudin orci vitae nisl fringilla vulputate. Ut rutrum elit sed risus eleifend efficitur. Integer leo nisi, finibus sed mi nec, varius blandit dolor. Suspendisse varius nisl ac viverra vestibulum. Donec mattis aliquam nibh, et viverra ipsum ultricies vitae.",
-      "like": "false"
+      "title": "Una notte al museo",
+      "image": "src/image/museo.jpg",
+      "travel": "Travel",
+      "text":  "Una Notte al Museo Egizio | Aperitivo & Dj Set Mercoledì 5 Luglio dalle ore 19.30 sarà possibile ascoltare un po’ di buona musica tra le statue monumentali della Galleria dei Re e nel cortile barocco del museo in occasione dell’evento «Una Notte al Museo Egizio», organizzato da Club Silencio. Durate la serata potrete degustare un aperitivo organizzato da foodora e godervi il Dj Set di Simo Cocco & Luca Nicola. Club Silencio è un progetto ideato Lemon - Fresh Communication in collaborazione con i Musei e gli edifici storici di Torino: il fil rouge che lega tutte le serate del progetto è offrire una nuova esperienza socio-culturale ai cittadini, dando loro la possibilità di riscoprire le grandi realtà culturali torinesi in un contesto meno istituzionale.",
+      "dettagli" : "https://www.guidatorino.com/eventi-torino/una-notte-al-museo-egizio-2018/"
     },
     {
       "id": "2",
-      "title": "Article Title 2",
-      "image": "https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif",
-      "tech": "tech",
-      "text": " Fusce nec lacus neque. Nunc sed eros in sem sodales aliquam ut id risus. Morbi sit amet lacus nisi. Morbi bibendum est nulla, imperdiet molestie nunc porttitor in. Cras pulvinar ullamcorper ante, in porttitor mi scelerisque non. Aliquam erat volutpat.Pellentesque dui felis, varius sed auctor at, gravida sit amet dolor. Donec commodo congue ligula nec pretium. Ut sed eros ultricies, semper leo.",
-      "like": "false"
+      "title": "Viaggi on the road",
+      "image": "src/image/road.jpg",
+      "travel": "Travel",
+      "text": "Viaggi on the road: le 25 strade panoramiche più belle al mondo. Dagli Stati Uniti all'India, ma anche rimanendo in Italia, gli itinerari più spettacolari da percorrere in auto o in motocicletta. Per una vacanza che inizia ancor prima di arrivare a destinazione.",
+      "dettagli" : "https://viaggi.corriere.it/viaggi/vacanze/viaggi-on-the-road-strade-piu-belle-al-mondo/"
     },
     {
       "id": "3",
-      "title": "Article Title 3",
-      "image": "https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif",
-      "tech": "tech",
-      "text": "Pellentesque a mi rutrum, viverra lacus non, maximus mauris. Praesent at lorem vitae arcu viverra laoreet. Mauris nec eleifend elit. Ut euismod euismod nunc in auctor. Nam purus est, pharetra at blandit sit amet, volutpat ut neque. Sed volutpat justo a neque maximus, vitae tempor lacus congue. Vivamus hendrerit felis at purus imperdiet pretium. Proin ut lorem ornare odio molestie ornare a ac felis.",
-      "like": "false"
-    },
-    {
-      "id": "4",
-      "title": "Article Title 4",
-      "image": "https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif",
-      "tech": "tech",
-      "text": " Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur",
-      "like": "true"
-    },
-    {
-      "id": "5",
-      "title": "Article Title 5",
-      "image": "https://cdn-images-1.medium.com/max/1600/1*G-7CdUg5R87vwhPAGOLMug.gif",
-      "tech": "tech",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra at elit nec pretium. In pellentesqueisl fringilla vulputate. Ut rutrum elit sed risus eleifend efficitur. Integer leo nisi, finibus sed mi nec, varius blandit dolor. Suspendisse varius nisl ac viverra vestibulum. Donec mattis aliquam nibh, et viverra ipsum ultricies vitae",
-      "like": "true"
+      "title": "Luoghi esoterici",
+      "image": "src/image/villa-palagonia.jpg",
+      "travel": "Travel",
+      "text": "Luoghi curiosi, pieni di misteri e leggende antiche: 10 posti 'stregati' d'Italia per un tour decisamente magico! Fra simboli esoterici, epifanie massoniche e luoghi pieni di fascino e mistero, l’Italia è piena di luoghi ‘stregati’! Beh, non proprio stregati, ma legati a leggende o piccole curiosità, che magari non conoscete ancora. Se siete curiosi di fare un salto nell’Italia più “occulta” e scoprire piccoli misteri e storie affascinanti, preparate la valigia! L’Italia è piena di piccoli paesi magnifici e luoghi particolarissimi.",
+     "dettagli" : "https://www.skyscanner.it/notizie/i-10-posti-stregati-ditalia"
+     
     }
   ]
 }
