@@ -1,5 +1,5 @@
-.slide {
-    margin-top: 50px;
+#myCarousel {
+    margin-top: 50px !important;
 }
 
 .carousel img {
@@ -32,7 +32,7 @@
     font-size: 17px;
 }
 
-.jumbotron h2 {
+#jumboHome h2 {
     text-align: -webkit-center;
 }
 
@@ -44,8 +44,6 @@
     background-color: #777777;
     border: #777777;
 }
-
-
 
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
