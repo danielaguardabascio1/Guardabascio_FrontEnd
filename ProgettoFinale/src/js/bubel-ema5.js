@@ -10628,11 +10628,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 			$('#c').load('page2-rs.html');
 		});
 
-		$(".nav-tabs a").click(function () {
-			$(this).tab('show');
-		});
-
-		$(".nav-tabs a").click(function () {
-			$(this).tab('show');
+		$('#nav_chisiamo').on('click', 'li', function () {
+			$('#nav_chisiamo li.active').removeClass('active');
+			$(this).addClass('active');
 		});
 	}, { "jquery": 1, "mustache": 2 }] }, {}, [3]);
