@@ -10595,10 +10595,9 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 		$(document).ready(function () {
 
 			$.ajax({
-				url: '../../articles.json',
+				url: '/articles',
 				method: 'GET',
 				dataType: 'json',
-				contentType: "application/json; charset=utf-8",
 				success: function success(result) {
 					var template = $('#template').html();
 					var rendered = Mustache.render(template, result);
@@ -10621,6 +10620,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 		$('#lav1').on('click', function () {
 			$('#c').load('page2-cr.html');
 		});
+
 		$('#lav2').on('click', function () {
 			$('#c').load('page2-ad.html');
 		});
