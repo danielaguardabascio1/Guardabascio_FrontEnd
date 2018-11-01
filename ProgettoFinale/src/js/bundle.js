@@ -11052,13 +11052,13 @@ return jQuery;
 const $ = require('jquery');
 const Mustache = require('mustache');
 
-
 $(document).ready(function () {
-
+    
     $.ajax({
         url: '../../articles.json',
         method: 'GET',
         dataType: 'json',
+        contentType:"application/json; charset=utf-8", 
         success: function (result) {
             var template = $('#template').html();
             var rendered = Mustache.render(template, result);
@@ -11078,8 +11078,6 @@ $('#c').load('page2-cr.html');
 $('#CookieId').on('click', () => {
     $('#cookie').hide();
 });
-
-
 
 $('#lav1').on('click', () => {
     $('#c').load('page2-cr.html');

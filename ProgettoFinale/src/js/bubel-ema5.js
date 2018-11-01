@@ -10598,6 +10598,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 				url: '../../articles.json',
 				method: 'GET',
 				dataType: 'json',
+				contentType: "application/json; charset=utf-8",
 				success: function success(result) {
 					var template = $('#template').html();
 					var rendered = Mustache.render(template, result);

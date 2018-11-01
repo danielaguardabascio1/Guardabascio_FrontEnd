@@ -59,8 +59,8 @@
   width: 100%;
 }
 .carousel-caption {
-  background-color: #ffffff;
-  width: 100%;
+  background-color: #ffffff69;
+  width: 100vw;
   left: 0;
   text-shadow: 4px 2px 7px black;
 }
