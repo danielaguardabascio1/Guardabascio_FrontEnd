@@ -10631,4 +10631,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 		$(".nav-tabs a").click(function () {
 			$(this).tab('show');
 		});
+
+		$(".nav-tabs a").click(function () {
+			$(this).tab('show');
+		});
 	}, { "jquery": 1, "mustache": 2 }] }, {}, [3]);

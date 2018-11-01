@@ -9,7 +9,7 @@ $(document).ready(function () {
         dataType: 'json',
         success: function (result) {
             var template = $('#template').html();
-            var rendered = Mustache.render(template, result);  
+            var rendered = Mustache.render(template, result);
             $('#articoli').html(rendered);
         },
         error: function () {
@@ -36,6 +36,10 @@ $('#lav2').on('click', () => {
 });
 $('#lav3').on('click', () => {
     $('#c').load('page2-rs.html');
+});
+
+$(".nav-tabs a").click(function () {
+    $(this).tab('show');
 });
 
 $(".nav-tabs a").click(function () {
