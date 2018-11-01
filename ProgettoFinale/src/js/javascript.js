@@ -41,3 +41,4 @@ $('#lav3').on('click', () => {
 $(".nav-tabs a").click(function () {
     $(this).tab('show');
 });
+

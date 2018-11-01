@@ -10,11 +10,10 @@
     <meta name="keywords" content="HTML,CSS,XML,JavaScript, Travel , landscape ">
     <meta name="author" content="Guardabascio Daniela , Santoro Sergio , De Gennaro Carlo">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/font/fontawesome-webfont.woff" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/font/fontawesome-webfont.woff2" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/css.min.css">
 
 </head>
@@ -25,7 +24,7 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
-                       <p id="CookieId">This is a cookie policy click here for close it</p>
+                        <p id="CookieId">This is a cookie policy click here for close it</p>
                     </a>
                 </div>
             </div>
@@ -33,18 +32,28 @@
     </div>
 
     <header>
+
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="#">Agenzia Made in Sud</a>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="page1.html">Chi Siamo</a></li>
-                    <li><a href="page2.html">I nostri lavori</a></li>
-                </ul>
+                <div class="nav collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="page1.html">Chi Siamo</a></li>
+                        <li><a href="page2.html">I nostri lavori</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
+
+
     </header>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

@@ -9,6 +9,7 @@
     <meta name="keywords" content="HTML,CSS,XML,JavaScript, Travel , landscape ">
     <meta name="author" content="Guardabascio Daniela , Santoro Sergio , De Gennaro Carlo">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/font/fontawesome-webfont.woff" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/font/fontawesome-webfont.woff2" rel="stylesheet">
@@ -33,16 +34,24 @@
     </div>
 
     <header>
+
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="#">Agenzia Made in Sud</a>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="#">Chi Siamo</a></li>
-                    <li><a href="page2.html">I nostri lavori</a></li>
-                </ul>
+                <div class="nav collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="#">Chi Siamo</a></li>
+                        <li><a href="page2.html">I nostri lavori</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -130,7 +139,7 @@
                 <div class="row" id="mainrow">
 
                     <!--Grid column-->
-                    <div class="col-md-5 mb-md-0 mb-5">
+                    <div class="col-md-8 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form">
 
                             <!--Grid row-->
@@ -191,7 +200,7 @@
                     </div>
 
                     <!--Grid column-->
-                    <div class="col-md-7 text-center">
+                    <div class="col-md-4 text-center">
                         <ul class="list-unstyled mb-0">
                             <li><i class="fa fa-map-marker fa-2x"></i>
                                 <p id="address">
@@ -229,7 +238,7 @@
     </footer>
 
 
-        <script type="text/javascript" src="js/script.min.js"></script>
+    <script type="text/javascript" src="js/script.min.js"></script>
 
 </body>
 
