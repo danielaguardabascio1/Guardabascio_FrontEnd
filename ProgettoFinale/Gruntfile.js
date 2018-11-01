@@ -11,7 +11,7 @@ module.exports = function (grunt) {
         less: {
             target: {
                 files: {
-                    'src/css/style_css.css': 'src/css/style_css.less'
+                    'src/css/style_css.css': 'src/css/style.less'
                 }
             }
         },
@@ -27,11 +27,12 @@ module.exports = function (grunt) {
 
         watch: {
             script: {
-                files: ['src/js/**.js','dist/js/Server.js'],
-                tasks: ['browserify']
+                files: 'src/js/javascript.js',
+                tasks: 'browserify'
+
             },
-            cssless:{
-                files: [ 'src/css/**.less'],
+            cssless: {
+                files: ['src/css/**.less'],
                 tasks: ['less']
             }
 
@@ -59,7 +60,7 @@ module.exports = function (grunt) {
         uglify: {
             target: {
                 files: {
-                    'dist/js/script.min.js': ['src/js/bubel-ema5.js','node_modules/jquery/dist/jquery.js', 'node_modules/bootstrap/dist/js/bootstrap.js']
+                    'dist/js/script.min.js': ['node_modules/jquery/dist/jquery.js', 'node_modules/bootstrap/dist/js/bootstrap.js', 'src/js/bubel-ema5.js']
                 }
             }
         },
@@ -80,5 +81,5 @@ module.exports = function (grunt) {
     grunt.task.registerTask('develop', ['watch']);
     //quando costruiiamo il sito
     grunt.task.registerTask('build', ['cssmin', 'babel', 'uglify', 'serve']);
-    
-   };
+
+};
