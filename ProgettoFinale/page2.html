@@ -49,12 +49,23 @@
 
 
 
-    <div id="c">
-<p>Ciao</p>
-        <!-- <li id="crId"><a href="#">Crociere</a></li>
-                            <li id="adId"><a href="#">Escurioni</a></li>
-                            <li id="rsId"><a href="#">Resort</a></li>
--->
+    <div class="jumbotron jumbotron-fkuid">
+        <div class="container">
+            <h2>I nostri lavori</h2>
+            <ul class="nav nav-tabs">
+                <li class="active"><a id="lav1">Crociere</a></li>
+                <li><a id="lav2">Escursioni</a></li>
+                <li><a id="lav3">Tour internazionali</a></li>
+                
+            </ul>
+
+            <div class="tab-content">
+                <div id="c" class="tab-pane fade in active">
+
+                </div>
+
+            </div>
+        </div>
     </div>
 
 
@@ -71,9 +82,31 @@
         $('#CookieId').on('click', () => {
             $('#cookie').hide();
         });
-        
+
+
+        $('#c').load('page2-cr.html');
+
+        $('#lav1').on('click', () => {
+            $('#c').load('page2-cr.html');
+        });
+        $('#lav2').on('click', () => {
+            $('#c').load('page2-ad.html');
+        });
+        $('#lav3').on('click', () => {
+            $('#c').load('page2-rs.html');
+        });
+
+        $(".nav-tabs a").click(function() {
+            $(this).tab('show');
+        });
     </script>
 
 </body>
 
 </html>
+
+
+<!-- <li id="crId"><a href="#">Crociere</a></li>
+                            <li id="adId"><a href="#">Escurioni</a></li>
+                            <li id="rsId"><a href="#">Resort</a></li>
+-->

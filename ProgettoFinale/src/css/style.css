@@ -52,32 +52,20 @@
     border: #777777;
 }
 
-.dropdown-menu > li > a {
-    color: #ffffff;
-
-}
-
-.dropdown-menu {
-    color: #fff;
-    background-color: #080808;
-
-}
-
-.img_cr {
+.lista .img{
     width: 33%;
     float: left;
     margin-right: 15px;
 }
 
-#im_0 {
-    width: 100%;
-    height: auto;
+.lista{
+    margin-top: 35px;
 }
 
-#text_cr {
-    margin-left: 20px;
-    float: right;
+.lista p{
+    margin-top: 30px;
 }
+
 
 #address {
     margin-top: 0px;
@@ -86,6 +74,12 @@
 #tel{
     margin-bottom: 30px;
 }
+
+#mainrow {
+    margin-top: 15px;
+}
+
+
 @media only screen and (min-width:768px) and (max-width:1024px) {
     .style_article:last-child {
         clear: both;
